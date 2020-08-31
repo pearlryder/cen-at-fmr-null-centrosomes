@@ -430,6 +430,7 @@ def measure_distance_by_obj(structure_1, structure_2, parallel_processing_bool, 
                                         structure_2=structure_2))
             # get cpu count and estimate the number of objects each processor should process
             cpu_count = mp.cpu_count() - 1
+        
             number_per_processor = round(null_count/cpu_count) + 1
 
             # divide the structure_1_data list into smaller pieces

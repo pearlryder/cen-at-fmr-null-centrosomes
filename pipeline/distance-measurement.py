@@ -20,7 +20,7 @@ structure_measurement_tuples = [('rna', 'centrosomes')]
 parallel_processing_bool = True
 
 # database info
-database_name = 'fmr'
+database_name = 'fmr2'
 db_user = "pearlryder"
 db_password = ""
 db_host = "localhost"
